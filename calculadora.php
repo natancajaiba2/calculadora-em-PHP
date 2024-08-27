@@ -25,6 +25,8 @@ switch($op){
         $resultado = $num1 / $num2;
         echo "o resultado da divisão é  ".$resultado;
         break;
+    default: 
+        echo "operação invalida";    
 }   
 
 
